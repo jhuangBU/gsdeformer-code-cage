@@ -1,0 +1,19 @@
+[project]
+name = "broxy-minimal"
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64"]
+
+[dependencies]
+cmake = ">=3.18"
+ninja = "*"
+cxx-compiler = "*"
+fortran-compiler = "*"
+
+python = "3.11.*"
+pip = "*"
+
+[tasks]
+configure = "cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release"
+build = { cmd = "cmake --build build", depends-on = ["configure"] }
+clean = "rm -rf build"
+py-install = "pip install -e ."

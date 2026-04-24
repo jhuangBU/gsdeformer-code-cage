@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/root/intelpa-1/cagegaussian/data/deforming_nerf-data/nerf_lego', model_path='output/nerf_lego', images='images', resolution=-1, white_background=True, data_device='cuda', eval=False)

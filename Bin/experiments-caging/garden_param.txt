@@ -1,0 +1,7 @@
+--- Updated global_scale: 0.0641348
+performing decimation with parameter: {
+  "target_error": 10,
+  "target_num_faces": 20,
+  "target_num_vertices": 150,
+  "max_edge_length_alpha": 1.5
+}

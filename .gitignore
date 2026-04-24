@@ -1,0 +1,16 @@
+*.o
+*.so
+*.so.1*
+.tmp
+.qmake.stash
+Bin/Broxy
+
+.idea
+__pycache__
+Makefile.*
+
+Bin/cagegaussian
+.gqlviewer.xml
+eigen3
+broxy-minimal*.egg-info/
+stacked.png

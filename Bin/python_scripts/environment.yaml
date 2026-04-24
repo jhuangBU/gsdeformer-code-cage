@@ -1,0 +1,22 @@
+name: broxy-python-scripts
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+  - pytorch3d
+  - defaults
+dependencies:
+  - python=3.8
+  - cuda-libraries-dev=11.7
+  - cuda-nvcc=11.7
+  - numpy>=1.16.4,<1.19.0
+  - pytorch=1.13.1=py3.8_cuda11.7_*
+  - torchvision=0.14.1=py38_cu117
+  - pytorch3d=0.7.5=py38_cu117*
+  - mkl=2024.0 # fix pytorch mkl versioning bug https://github.com/pytorch/pytorch/issues/123097
+  - tqdm
+  - pip
+  - pip:
+      - plyfile
+      - open3d
+      - submodules/depth-diff-gaussian-rasterization

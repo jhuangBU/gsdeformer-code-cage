@@ -1,0 +1,39 @@
+name: broxy-python-decimate-scripts
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  # python
+  - python=3.7
+  - pip
+  # binary deps
+  - cmake=3.18
+  - ninja
+  - gcc_linux-64=11.*
+  - gxx_linux-64=11.*
+  - libxcrypt
+  - fortran-compiler
+  - boost-cpp=1.65.1
+  - mkl<2023
+  # CUDA
+  - cuda-nvcc=11.7
+  - cuda-libraries-dev=11.7
+  - cuda-cccl=11.7
+  # pytorch
+  - pytorch-mutex=1.0=cuda*
+  - pytorch<2
+  - torchvision
+  - faiss-gpu
+  - matplotlib-base>=3.1.1
+  - scipy
+  - openmesh-python
+  - pip:
+    - open3d
+    - tensorboard
+    - tqdm
+    - meshio
+    - ./pymesh/pymesh2-0.2.1-cp37-cp37m-linux_x86_64.whl
+    - ./pytorch_points
+    - ./broxy_decimate_src
