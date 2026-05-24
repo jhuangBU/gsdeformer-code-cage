@@ -75,13 +75,14 @@ The folder to select is the training result folder from 3DGS — e.g. if the ply
 ## Citation
 
 ```
-@misc{huang2024gsdeformerdirectrealtimeextensible,
-    title={GSDeformer: Direct, Real-time and Extensible Cage-based Deformation for 3D Gaussian Splatting}, 
-    author={Jiajun Huang and Shuolin Xu and Hongchuan Yu and Tong-Yee Lee},
-    year={2024},
-    eprint={2405.15491},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    url={https://arxiv.org/abs/2405.15491}, 
-}
+@ARTICLE{11494421,
+  author={Huang, Jiajun and Xu, Shuolin and Yu, Hongchuan and Lee, Tong-Yee},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={GSDeformer: Direct, Real-time and Extensible Cage-based Deformation for 3D Gaussian Splatting}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-16},
+  keywords={Videos;Video equipment;Radio access networks;Regional area networks;Graphical user interfaces;MISO;Protocols;Neural radiance field;Deep learning;Artificial intelligence;3D Gaussian Splatting;Cage-based Deformation;3D Representation Editing;Animation},
+  doi={10.1109/TVCG.2026.3687062}}
 ```
